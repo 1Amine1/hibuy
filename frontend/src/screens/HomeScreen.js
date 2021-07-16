@@ -40,19 +40,19 @@ export default function HomeScreen() {
           {sellers.length === 0 && <MessageBox>Non Vente Trouvez</MessageBox>}
           <Carousel autoPlay ={true} className="carousel-slider" >
                 <div>
-                    <img src="images/deco.jpeg" />
+                    <img src="../images/ajana.jpeg" />
                     <p className="legend"  style={{color:"orange"}}>Legend 1</p>
                 </div>
                 <div>
-                    <img src="images/kisan.jpeg" />
+                    <img src="" />
                     <p className="legend">Legend 2</p>
                 </div>
                 <div>
-                    <img src="images/kika.jpeg" />
+                    <img src="../images/bzdam.jpeg" />
                     <p className="legend">Legend 3</p>
                 </div>
                 <div>
-                    <img src="images/brd.jpeg" />
+                    <img src="../images/bl.jpeg" />
                     <p className="legend"> </p>
                 </div>
                

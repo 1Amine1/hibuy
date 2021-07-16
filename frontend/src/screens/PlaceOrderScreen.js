@@ -25,7 +25,7 @@ export default function PlaceOrderScreen(props) {
   cart.totalPrice = cart.itemsPrice + cart.shippingPrice ;
   const dispatch = useDispatch();
   const placeOrderHandler = () => {
-    // TODO: dispatch place order action
+  //TODO: dispatch place order action
     dispatch(createOrder({ ...cart, orderItems: cart.cartItems }));
   };
   useEffect(() => {
@@ -111,7 +111,7 @@ export default function PlaceOrderScreen(props) {
               <li>
                 <div className="row">
                   <div>
-                    <strong>Prixe Total</strong>
+                    <strong>Prix Total</strong>
                   </div>
                   <div>
                     <strong>{cart.totalPrice.toFixed(2)} DH</strong>

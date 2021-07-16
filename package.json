@@ -5,8 +5,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deployy": "gh-pages -d build",
+    
     "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
