@@ -8,6 +8,7 @@ import MessageBox from '../components/MessageBox';
 import {useDispatch,useSelector} from 'react-redux';
 import { listProducts } from '../actions/productActions';
 import { listTopSellers } from '../actions/userActions';
+import profileImage from '../images/de.jpeg';
 
 
 export default function HomeScreen() {
@@ -40,7 +41,7 @@ export default function HomeScreen() {
           {sellers.length === 0 && <MessageBox>Non Vente Trouvez</MessageBox>}
           <Carousel autoPlay ={true} className="carousel-slider" >
                 <div>
-                    <img src="../images/ajana.jpeg" />
+                    <img src={profileImage} alt="profile-image"/>
                     <p className="legend"  style={{color:"orange"}}>Legend 1</p>
                 </div>
                 <div>
